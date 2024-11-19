@@ -9,7 +9,7 @@ export class StipeService {
 
   public constructor(private prisma: PrismaService) {
     this.stripeClient = new Stripe(
-      'sk_test_51PIpLLSHukomVMbJaj8P3PUq8XHuuLOkSjn7WzcaWf7M5VvHxPs2gkAtZvva6lRkyc87rCRZAnvTXtFZqG5dfoOn00KKc43sj3',
+      'your strip private key',
       { apiVersion: '2020-08-27' },
     );
   }
