@@ -14,14 +14,9 @@ import { PrismaService } from './services/prisma/prisma.service';
     StipeModule,
     StripeModule.forRoot({
       apiKey:
-        'sk_test_51PIpLLSHukomVMbJaj8P3PUq8XHuuLOkSjn7WzcaWf7M5VvHxPs2gkAtZvva6lRkyc87rCRZAnvTXtFZqG5dfoOn00KKc43sj3',
+        'your strip private key',
       apiVersion: '2020-08-27',
     }),
-    // NestjsPaypalPayoutsModule.register({
-    //   environment: 'sandbox',
-    //   clientId: 'AbCiNdx9PNFxKkbugyEAGALlZthXJ4zJop0Z36faLvhQ1GShL9...',
-    //   clientSecret: 'ELHf5RTxtwok5Ay29AjMMZjJrvsvZjdBXL5V_DBhw3jUgOtIE0...',
-    // }),
     PaypalModule,
   ],
   controllers: [AppController],
